@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <h1 className='text-2xl bg-green-700 p-3 rounded-md'>PropCardium</h1>
-      <Card username="Avi"/>
+      <Card username="Sri Krishna" post="Super Consciousness"/>
       <Card />
       <Card />
     </>

@@ -1,13 +1,14 @@
 import React from "react";
+import krishnaImage from '../images/Krishna.webp'
 
-const Card = (props) => {
-  console.log(props);
+function Card ({username = " AK ", post = "Not assigned yet"}) {
+  // console.log(props);
   return (
     <div>
       <figure className="bg-slate-100 rounded-xl p-8 dark:bg-slate-800">
         <img
           className="w-24 h-24 rounded-full mx-auto"
-          src="https://images.pexels.com/photos/18264716/pexels-photo-18264716/free-photo-of-man-in-headphones-showing-programming-process-on-a-laptop.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+          src={krishnaImage}
           alt=""
           width="384"
           height="512"
@@ -21,9 +22,9 @@ const Card = (props) => {
             </p>
           </blockquote>
           <figcaption className="font-medium">
-            <div className="text-sky-500 dark:text-sky-400">{props.username}</div>
+            <div className="text-sky-500 dark:text-sky-400">{username}</div>
             <div className="text-slate-700 dark:text-slat">
-              Staff Engineer, Algolia
+              {post}
             </div>
           </figcaption>
         </div>
