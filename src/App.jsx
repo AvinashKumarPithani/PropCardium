@@ -7,16 +7,16 @@ import Parashurama from './images/Parashurama.avif'
 
 function App() {
   const avatars = {
-    a1: { name: 'Matsya' },
-    a2: 'Kurma',
-    a3: 'Varaha',
-    a4: 'Narasimha',
-    a5: 'Vamana',
+    a1: { name: 'Matsya', title: 'Warrior', idol: KrishnaImage },
+    a2: { name: 'Kurma', title: 'Warrior', idol: KrishnaImage },
+    a3: { name: 'Varaha', title: 'Warrior', idol: KrishnaImage },
+    a4: { name: 'Narasimha', title: 'Warrior', idol: KrishnaImage },
+    a5: { name: 'Vamana', title: 'Warrior', idol: KrishnaImage },
     a6: { name: 'Parashurama', title: 'Warrior', idol: Parashurama },
     a7: { name: 'Sri Rama', title: 'Maryada Purushottama', idol: RamaImage },
     a8: { name: 'Sri Krishna', title: 'Supreme Consciousness', idol: KrishnaImage },
-    a9: 'Buddha',
-    a10: 'Kalki'
+    a9: { name: 'Buddha', title: 'Supreme Consciousness', idol: KrishnaImage },
+    a10:{ name: 'Kalki', title: 'Supreme Consciousness', idol: KrishnaImage },
   };
 
   return (
