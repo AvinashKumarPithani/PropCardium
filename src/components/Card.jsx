@@ -1,7 +1,7 @@
 import React from "react";
 import KrishnaImage from '../images/Krishna.webp'
 
-function Card ({avatar = "Vishnu", title = "Supreme Consciousness", idol = KrishnaImage}) {
+function Card ({avatar = "Vishnu", title = "Supreme Consciousness", idol = KrishnaImage, description = ""}) {
   // console.log(props);
   return (
     <div>
@@ -10,7 +10,7 @@ function Card ({avatar = "Vishnu", title = "Supreme Consciousness", idol = Krish
         <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
           <blockquote>
             <p className="text-lg font-medium">
-              Lorem ipsum dolor sit amet consectetur adipisicing.
+              {description}
             </p>
           </blockquote>
           <figcaption className="font-medium">
